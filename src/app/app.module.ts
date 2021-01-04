@@ -4,18 +4,32 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CVHeadComponent } from './head/head.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms'
+import { MaterialModule } from './material/material.module'
+//---------CV--------//
+import { BlackRComponent } from './simple/br/br.component';
+import { YellowGComponent } from './simple/yg/yg.component';
+
+//-----Template------//
+import { EducationComponent } from './template/education/education.component';
+
+
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    CVHeadComponent
+    BlackRComponent,
+    YellowGComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,
     BrowserAnimationsModule,
-    AppRoutingModule
+    AppRoutingModule,
+    MaterialModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

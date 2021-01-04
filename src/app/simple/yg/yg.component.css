@@ -1,0 +1,77 @@
+.dg-container{
+    width:210mm; 
+    height: 297mm;
+    background-color: rgb(37,61,26);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 8px 8px 8px 8px;
+}
+.y-container{
+    height: 100%;
+    background-color: bisque;
+    padding: 30px 45px 30px 45px;
+
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(37,61,26);
+}
+
+.header{
+    height: 20%;
+}
+
+.name, .title, .right-title, .left-item{
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+}
+
+.name{
+    font-style: italic;
+    font-size: xxx-large;
+    margin-bottom: 10px;
+}
+
+.title{
+    font-size: x-large;
+}
+
+.content{
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.left-col{
+    float:left;
+    width: 25%;
+}
+
+.left-item{
+    font-size: large;
+}
+
+.right-col{
+    margin-left: 25%;
+    padding-left: 15px;
+    border-left:1px solid rgb(37,61,26);
+}
+
+.right-title{
+    font-size: large;
+    background-color: rgb(37,61,26);
+    color:rgb(255, 254, 248);
+    padding: 10px 20px;
+}
+
+
+/*--------Input Style--------*/
+input{
+    border: 0;
+    outline: none;
+    background-color: transparent;
+    color: rgb(37,61,26);
+}
+
+input:-webkit-autofill{
+    -webkit-text-fill-color: rgb(95, 104, 92);
+    background-color: transparent;
+}

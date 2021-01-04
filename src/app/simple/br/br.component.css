@@ -1,0 +1,26 @@
+.header{
+    background-color:#000;
+    text-align: center;
+}
+
+.name, .title{
+    line-height: 59px;
+
+    font-style: italic;
+    font-weight: bold;
+    color: #fff;
+}
+
+.name{
+    font-size: xx-large;
+}
+
+.title{
+    font-size: large;
+}
+
+hr{
+    border-bottom:1px solid; 
+    color: white; 
+    width:70%;
+}
